@@ -4,20 +4,33 @@
     <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
+    <header>
+      <h1 class="site-title">My Website Title</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <h1>Home page</h1>
+      <img
+        id="my-image"
+        src="https://a.storyblok.com/f/112937/568x464/884e373bca/travel_pic_unsplash1-568x464.jpg/m/620x0/filters:quality(70)/"
+        alt="My Image"
+      />
+      <ul class="hobbies-list">
+        <li>Coding</li>
+        <li>Reading</li>
+        <li>Traveling</li>
+      </ul>
     </main>
+    <footer>
+      <p>&copy; 2023 My Website</p>
+    </footer>
   </body>
 </html>
